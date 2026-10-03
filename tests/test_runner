@@ -1,0 +1,6 @@
+# This file is used to run all test cases for the pediatric-icu-drug-calculator project.
+
+all:
+	make test_drug_database
+	make test_dosage_calculator
+	make test_safety_validation

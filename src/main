@@ -1,0 +1,12 @@
+# src/main.c
+
+#include <stdio.h>
+#include "include/main.h"
+
+int main() {
+	// Entry point for the drug calculator
+	double dose = calculate_dose();
+	validate_dose(dose);
+	display_dose(dose);
+	return 0;
+}
